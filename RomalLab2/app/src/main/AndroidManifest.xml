@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".georgeActivityDetachedHome"></activity>
         <activity
             android:name=".georgeActivityApartment"
             android:label="@string/title_activity_george_apartment">
