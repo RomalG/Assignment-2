@@ -31,7 +31,7 @@ public class georgeActivityHomeTypes extends AppCompatActivity {
             case R.id.item1:
                 Toast.makeText(this,"Apartment is selected", Toast.LENGTH_SHORT).show();
                 //define an intent object to move to another screen
-                Intent intent=new Intent(SecondActivity.this,ThirdActivity.class);
+                Intent intent=new Intent(georgeActivityHomeTypes.this,georgeActivityApartment.class);
 
                 //startActivity method will take you to another screen
                 startActivity(intent);
